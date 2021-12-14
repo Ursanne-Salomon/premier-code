@@ -1,7 +1,15 @@
 body {
-    color: white;
-    background-color: aqua;
+    color: black;
+    background-color: white
 }
 h1 {
-    color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    color: #251605;
+}
+h2{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
 }
