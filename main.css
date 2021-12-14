@@ -1,6 +1,7 @@
 body {
     color: white;
     background-color: black;
+    font-family: "Bauhaus 93";
 }
 h1 {
     text-align: center;
@@ -9,11 +10,24 @@ h1 {
     border-color:blue;
     color: blue;
 }
-h2{
+h2 {
     border-width: 5px;
     border-style: solid;
     border-color: cyan;
-}
-ul1{
 
+    text-align: center;
+}
+.flotte {
+    float:left;
+}
+img{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+p {
+    text-align: left;
+}
+nav {
+    border-bottom: 1px solid black;
 }
