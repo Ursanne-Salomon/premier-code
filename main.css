@@ -1,7 +1,49 @@
 body {
     color: white;
-    background-color: aqua;
+    background-image:  url('img_3.png') ;
+    width: 1397px;
+    height: 873px;
+    font-family: "Bauhaus 93", serif;
+    
 }
 h1 {
-    color: yellow;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color:blue;
+    color: blue;
+
 }
+h2 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position:50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position:50%;
+    }
+}
+}
+.flotte {
+    float:left;
+}
+img{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+p {
+    text-align: left;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+
